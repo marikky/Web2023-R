@@ -5,4 +5,5 @@ function hanako68(){document.getElementById('who68').innerHTML = '花子';}
 
 
 
-<img src="./image/IMG_9236.jpeg" alt="掲載されたもの" width="400" height="600">
+<img src="./image/kid_seikaku_kachiki_boy.png" alt="いらすとや中肉中背の男性" width="400" height="600">
+<img src="./image/kid_seikaku_kachiki_boy.png" alt="いらすとや中肉中背の男性" width="400" height="600">
