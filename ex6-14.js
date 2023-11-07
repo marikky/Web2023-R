@@ -1,3 +1,3 @@
 function gazo3(){
-image src ='./image/_residential_street_2.jpg';
+<img src='./image/back_alley_2.jpg' id="img3" alt="gazohen" class="imagechange">
 setTimeout("gazo3()",3000);}
