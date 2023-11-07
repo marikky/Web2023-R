@@ -1,1 +1,1 @@
-function gazo3
+function gazo3(){
