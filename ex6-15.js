@@ -4,3 +4,4 @@
 var img;
 function gazo33(){document.getElementById('img33').src='./image/_residential_street_2.jpg';}
 function gazo34(){document.getElementById('img33').src='./image/back_alley_2.jpg';}
+setTimeout("gazo34()",3000);}
