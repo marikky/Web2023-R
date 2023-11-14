@@ -3,4 +3,4 @@
 //setTimeout("gazo33()",3000);}
 var img;
 function gazo33(){document.getElementById('img33').src='./image/_residential_street_2.jpg';}
-function gazo34(){document.getElementById('img33').src='./image/face_smile_man1.png';}
+function gazo34(){document.getElementById('img33').src='./image/back_alley_2.jpg';}
