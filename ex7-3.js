@@ -16,4 +16,5 @@ function keisan(){ //keisanという関数を実行
 //  else if(c < 25 && c >= 18){ //cが18〜25の場合〇〇に”標準型”と表示される
 //   document.getElementById("kuuran").textContent = "標準型"; }
 //  else{ //それ以外は〇〇に”痩せ型”と表示される
-//   document.getElementById("kuuran").textContent = "瘦せ型";}}
+//   document.getElementById("kuuran").textContent = "瘦せ型";}
+}
