@@ -10,8 +10,8 @@ function uru() {
 var year = Number(document.getElementById('seireki').value); 
 var result;
 if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) 
-     {kotae = '閏年ですよ';} 
-else {kotae = '平年でした';}
+     {kotae = '閏年ですよ！！';} 
+else {kotae = '平年でした！';}
 
     document.getElementById('kekka').innerText = year + kotae ;
     alert( year +'年は' + kotae);}
