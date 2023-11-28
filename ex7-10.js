@@ -4,6 +4,6 @@ function keisan1(){
   b	= document.getElementById("taijuu1").value; 
   c = b/( (a/100)*(a/100) ); 
 
- if(c >= 25){document.getElementById("kuuran1").textContent = "肥満型"; }
-  else if(c < 25 && c >= 18.5){document.getElementById("kuuran1").textContent = "標準型"; }
-  else{document.getElementById("kuuran1").textContent = "瘦せ型";}
+ if(c >= 25){document.getElementById("kuuran1").textContent = "肥満"; }
+  else if(c < 25 && c >= 18.5){document.getElementById("kuuran1").textContent = "普通"; }
+  else{document.getElementById("kuuran1").textContent = "低体重";}
