@@ -9,4 +9,5 @@ function keisan(){ //keisanという関数を実行
   a = document.getElementById("shincho").value; // "sincho"で記入した値をaに代入
   b	= document.getElementById("taijuu").value; // "taijyuu"で記入した体重をbに代入
   c = b/( (a/100)*(a/100) ); //BMIの計算結果をcに代入
-　alert(c);
+　alert(c);}
+
