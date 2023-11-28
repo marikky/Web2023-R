@@ -6,5 +6,5 @@ function keisan1(){
 
  if(c >= 25){document.getElementById("kuuran1").textContent = "肥満"; }
   else if(c < 25 && c >= 18.5){document.getElementById("kuuran1").textContent = "普通"; }
-  else{document.getElementById("kuuran1").textContent = "低体重";}}
-  {alert("kuuran1");}
+  else{document.getElementById("kuuran1").textContent = "低体重";}
+  {alert("kuuran1");}}
