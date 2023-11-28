@@ -14,7 +14,7 @@ if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)
 else {kotae = '平年でした';}
 
     document.getElementById('kekka').innerText = year + kotae ;
-    alert( year + kotae);}
+    alert( year +'年は' + kotae);}
 
 
 
