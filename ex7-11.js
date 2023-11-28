@@ -13,7 +13,7 @@ if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)
      {kotae = '閏年ですよ！！';} 
 else {kotae = '平年でした！';}
 
-    document.getElementById('kekka').innerText = year + kotae ;
+    document.getElementById('kekka').innerText = year +'年は'+ kotae ;
     alert( year +'年は' + kotae );}
 
 
