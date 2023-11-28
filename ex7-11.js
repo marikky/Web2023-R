@@ -15,3 +15,13 @@ else {kotae = '平年でした';}
 
     document.getElementById('kekka').innerText = year + result + 'です。';
     alert( year + kotae + 'です。');}
+
+
+
+
+
+
+
+
+
+
