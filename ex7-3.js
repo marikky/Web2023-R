@@ -6,8 +6,8 @@
 
 function keisan(){ //keisanという関数を実行
   var a, b,d;
-  a = document.getElementById("shincho").value; // "sincho"で記入した値をaに代入
-  b	= document.getElementById("taijuu").value; // "taijyuu"で記入した体重をbに代入
+  a = document.getElementById("shincho").value;
+  b	= document.getElementById("taijuu").value; 
   c = b/( (a/100)*(a/100) ); //BMIの計算結果をcに代入
 　'あなたのBMIは' + alert(c) + 'です' ;}
 
