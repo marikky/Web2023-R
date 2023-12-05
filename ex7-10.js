@@ -24,7 +24,7 @@
 function hantei2() {
     var height = Number(document.getElementById('height').value) / 100;
     var bodyweight = Number(document.getElementById('bodyweight').value);
-    var keisan3 = bodyweight / (height * bodyheight); 
+    var keisan3 = bodyweight / (height * bodyweight); 
 
     var classification;
     if (keisan3 < 18.5) {classification = '低体重';} 
