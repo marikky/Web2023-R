@@ -9,25 +9,25 @@
 //  else{document.getElementById("kuuran1").textContent = "低体重";}
 //  {alert("kuuran1");}}
 
-function hantei2(){ 
-  var a, b,d;
-  a = document.getElementById("height").value; 
-  b	= document.getElementById("bodyweight").value; 
-  c = b/( (a/100)*(a/100) ); 
+//function hantei2(){ 
+//  var a, b,d;
+//  a = document.getElementById("height").value; 
+//  b	= document.getElementById("bodyweight").value; 
+//  c = b/( (a/100)*(a/100) ); 
 
- if(c >= 25){ document.getElementById("haku").textContent = "肥満"; }
-  else if(c < 25 && c >= 18.5){ document.getElementById("haku").textContent = "普通"; }
-  else{ document.getElementById("haku").textContent = "低体重"; }
-  { alert('あなたのBMI指数は' + 'c' + 'で' + 'haku' + 'です。'); }}
+// if(c >= 25){ document.getElementById("haku").textContent = "肥満"; }
+//  else if(c < 25 && c >= 18.5){ document.getElementById("haku").textContent = "普通"; }
+//  else{ document.getElementById("haku").textContent = "低体重"; }
+//  { alert('あなたのBMI指数は' + 'c' + 'で' + 'haku' + 'です。'); }}
 
 
-//function hantei2() {
-//    var height = Number(document.getElementById('height').value) / 100;
-//    var bodyweight = Number(document.getElementById('bodyweight').value);
-//    var keisan3 = bodyweight / (height * bodyheight); 
+function hantei2() {
+    var height = Number(document.getElementById('height').value) / 100;
+    var bodyweight = Number(document.getElementById('bodyweight').value);
+    var keisan3 = bodyweight / (height * bodyheight); 
 
-    //var classification;
-    //if (keisan3 < 18.5) {classification = '低体重';} 
-    //else if (keisan3 < 25) {classification = '普通';}
-    //else {classification = '肥満';}
-    //alert('あなたのBMIは ' + keisan3 + ' です。この数値は「' + classification + '」の範囲に分類されます。');}
+    var classification;
+    if (keisan3 < 18.5) {classification = '低体重';} 
+    else if (keisan3 < 25) {classification = '普通';}
+    else {classification = '肥満';}
+    alert('あなたのBMIは ' + keisan3 + ' です。この数値は「' + classification + '」の範囲に分類されます。');}
