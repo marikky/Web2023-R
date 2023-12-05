@@ -18,6 +18,6 @@ function hantei2(){
  if(c >= 25){ document.getElementById("haku").textContent = "肥満"; }
   else if(c < 25 && c >= 18.5){ document.getElementById("haku").textContent = "普通"; }
   else{ document.getElementById("haku").textContent = "低体重"; }
-  { alert("あなたのBMI指数は" + "haku" + "です"); }}
+  { alert('あなたのBMI指数は' + "haku" + 'です'); }}
 
 
